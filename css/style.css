@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background: url(../img/PancasLandJ.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(147, 230, 253);
+    transition: .5s;
+}
+
+.logo img{
+    display: inline-block;
+    width: 50%;
+    margin-top: auto;
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.7));
+}
+
+.container .box{
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: 20%;
+    padding: 20px;
+    z-index: 10;
+    display: flex;
+    position: relative;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    box-shadow: 10px -4px 20px rgba(238, 158, 158, 0.25);
+}
+
+button{
+    width: auto;
+    height: 40%;
+    border-radius: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1649px){
+    .container .box{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1099px){
+    .container .box{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 825px){
+    .container .box{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .container .box{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .container .box{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 471px){
+    .container .box{
+        width: 80%;
+    }
+}
