@@ -5,7 +5,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 
-    background: url(../img/PancasLandJ.jpg);
+    background: url(../img/PancasLand.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
@@ -51,13 +51,15 @@ body{
 }
 
 .botao .link{
-    line-height: 50px;
+    line-height: 30px;
     width: auto;
     height: 50%;
-    border-radius: 30px;
+    padding: 5px;
+    border-radius: 10px;
     border: none;
     outline: none;
     cursor: pointer;
+    background: linear-gradient(90deg rgb(245, 248, 142, 0.5) rgb(255, 255, 255)) ;
 }
 
 a{
@@ -97,11 +99,6 @@ a{
     }
 }
 
-@media screen and (max-width: 471px){
-    .container .box{
-        width: 80%;
-    }
-}
   
   
   
