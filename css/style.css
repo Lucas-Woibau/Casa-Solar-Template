@@ -5,6 +5,9 @@ body{
     padding: 0;
     box-sizing: border-box;
 
+    font-family:'Comic Sans MS', Comic Sans, cursive;
+    font-display: swap;
+
     background: url(../img/PancasLand.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,7 +36,6 @@ body{
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
     font-size: 20px;
-    font-family:'Comic Sans MS', Comic Sans, cursive;
     font-weight: 500;
     margin: auto;
     justify-content: center;
