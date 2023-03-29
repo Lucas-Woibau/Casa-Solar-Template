@@ -13,22 +13,13 @@ body{
 }
 
 .container{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-a:hover{
-    color: rgb(147, 230, 253);
-    transition: .5s;
+    line-height: 12px;
 }
 
 .logo img{
@@ -39,7 +30,7 @@ a:hover{
 }
 
 .container .box{
-    color: white;
+    color: rgb(255, 255, 255);
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -55,18 +46,25 @@ a:hover{
     position: relative;
     border: 5px solid rgba(255, 255, 255, 0.1);
     border-radius: 30px;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(6px);
     box-shadow: 10px -4px 20px rgba(238, 158, 158, 0.25);
 }
 
-button{
+.botao .link{
+    line-height: 50px;
     width: auto;
-    height: 40%;
-    border-radius: 40px;
-    background: white;
+    height: 50%;
+    border-radius: 30px;
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+a{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1649px){
@@ -104,3 +102,9 @@ button{
         width: 80%;
     }
 }
+  
+  
+  
+  
+  
+  
