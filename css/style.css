@@ -1,12 +1,16 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    src: url(../font/markerfelt-normal.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-    font-family:'Comic Sans MS', Comic Sans, cursive;
-    font-display: swap;
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
 
     background: url(../img/PancasLand.jpg);
     background-repeat: no-repeat;
