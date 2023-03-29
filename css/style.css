@@ -68,6 +68,11 @@ a{
     text-decoration: none;
 }
 
+a:visited{
+    color: inherit;
+}
+
+
 a:hover{
     color: rgb(252, 83, 83);
     transition: .5s;
