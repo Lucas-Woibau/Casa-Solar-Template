@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+    src: url(../font/markerfelt-normal.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Comic Sans MS', Comic Sans, cursive;
+
+    background: url(../img/PancasLand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+
+.container{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 15px;
+}
+
+.logo img{
+    display: inline-block;
+    width: 50%;
+    margin-top: auto;
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.7));
+}
+
+.container .box{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    font-size: 20px;
+    font-weight: 500;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: 20%;
+    padding: 20px;
+    z-index: 10;
+    display: flex;
+    position: relative;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 10px -4px 20px rgba(238, 158, 158, 0.25);
+}
+
+.botao .link{
+    line-height: 30px;
+    width: auto;
+    height: 50%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+a{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: inherit;
+}
+
+
+a:hover{
+    color: rgb(252, 83, 83);
+    transition: .5s;
+}
+
+.botao{
+	animation: pulse 1s infinite;
+	margin: 0 auto;
+	display: table;
+	margin-top: 0px;
+	animation-direction: alternate;
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+}
+@-webkit-keyframes pulse {
+        0% {
+        -webkit-transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1.1);
+    }
+    } @keyframes pulse {
+        0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+@media screen and (max-width: 1649px){
+    .container .box{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1099px){
+    .container .box{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 825px){
+    .container .box{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .container .box{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .container .box{
+        width: 70%;
+    }
+}
+
+  
+  
+  
+  
+  
+  
