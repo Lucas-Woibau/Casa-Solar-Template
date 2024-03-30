@@ -1,9 +1,14 @@
-# Site Casa Solar
+# Sobre
+https://casa-solar-template.vercel.app/
 
-## Ferramentas utilizadas:
-### Visual Studio Code.
-### HTML5 | CSS3 | FIGMA
+Site feito para aprimorar minhas habilidades com a ferramenta de design Figma, onde o background foi feito totalmente do zero baseado na paisagem da cidade de Pancas ES.
 
-## Imagem do Background:
+# Layout web
+![web 1](https://github.com/Lucas-Woibau/Casa-Solar-Template/blob/master/public/img/casa%20solar.png?raw=true)
+# Imagem background
+![web 2](https://raw.githubusercontent.com/Lucas-Woibau/Casa-Solar-Template/master/public/img/PancasLand.jpg)
+# Tecnologias usadas
+ - Html5 
+ - Css3
+ - Figma
 
-<img src="https://github.com/Lucas-Woibau/Casa-Solar-Template/blob/master/public/img/PancasLand.jpg?raw=true">
